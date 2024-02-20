@@ -148,43 +148,17 @@ section {
 
 button {
     height: 3.5em;
-    width: 12em;
-    font-size: 15px;
+    width: 10em;
+    font-size: 16px;
     font-weight: 700;
-    border-radius: 0;
-    letter-spacing: 3px;
-    background: transparent;
-    color: black;
+    letter-spacing: 2px;
+    background-color: #333;
+    color: white;
     position: relative;
     cursor: pointer;
+    border-color: transparent;
 }
 
-button:hover {
-    opacity: 1;
-    left: 0;
-    right: 0;
-    color: var(--main-color);
-}
-
-button::before {
-    content: " ";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    right: 50%;
-    transition: .5s all ease;
-    background-color: black;
-    opacity: 0;
-    z-index: -1;
-}
-
-button:hover::before {
-    opacity: 1;
-    left: 0;
-    right: 0;
-    color: var(--main-color);
-}
 
 /* end components */
 
