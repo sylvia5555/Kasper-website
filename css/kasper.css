@@ -48,7 +48,7 @@ li {
     }
 }
 
-@media (min-width:1200) {
+@media (min-width:1200px) {
     .container {
         width: 1170px;
     }
@@ -1003,7 +1003,7 @@ header nav .form i {
 /* PRICING */
 .pricing .plans {
     DISPLAY: GRID;
-    grid-template-columns: repeat(auto-fill, MINMAX(210PX, 1FR));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 30px;
 }
 
@@ -1073,6 +1073,7 @@ header nav .form i {
     border: 1px solid var(--main-color);
     width: fit-content;
     margin: 30px auto;
+    color: var(--main-color);
 }
 
 .pricing .contact-text {
